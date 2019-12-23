@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.home .post {
+  overflow: hidden;
+  display: flex;
+  padding: 25px 20px;
+}
+
+.home .post:hover { 
+  box-shadow: 2px 4px 7px 0px #8080808a;
+}
+
+.home .post img {
+  width: 120px;
+}
+
+.home .purple-text {
+  text-transform: capitalize;
+}
+
+.home .card-body {
+  color: darkslategray;
+}
+
+.home .card-body::first-letter {
+  text-transform: uppercase;
+}
