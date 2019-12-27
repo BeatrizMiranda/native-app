@@ -3,7 +3,6 @@ import { ThemeContext } from '../Contexts/ThemeContext';
 
 class BookList extends Component {
     //import all data from context Teacher prefere this one (but cant use two differents consumer)
-
     static contextType = ThemeContext
     render() { 
         const {isLightTheme, light, dark } = this.context;
